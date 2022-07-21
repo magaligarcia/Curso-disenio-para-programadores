@@ -1,259 +1,402 @@
-# Curso-disenio-para-programadores
+# Diseño para Developers
 
-# 1. Fundamentos del diseño
+**Bases teóricas para el diseño**
 
-## 1.1. El proceso creativo
+# Título del video: El proceso creativo
 
-El proceso creativo consta de algunos pasos:
+![image](https://user-images.githubusercontent.com/60717025/180318241-772058c0-3867-4446-8b97-29c2f0c9b03d.png)
 
-1. **Preparación:** Investigar, recopilar información relativa a un problema.
-2. **Incubación:** Experimentar, sintetizar, ver cómo alguien ha solucionado un problema.
-3. **Iluminación:** Idear, imaginar.
-4. **Evaluación:** Criticar, replantear. Definir si las  soluciones son prácticas o viables.
-5. **Implementación:** Construir, trabajar.
+1. **Preparación.**
+    - **Investigamos y recopilamos la información relativa a un problema.**
+2. **Incubación.**
+    - **Experimentamos con posibles soluciones y damos un primer visitado de la información que preparamos.**
+3. **Iluminación.**
+    - **Se nos ocurre la idea, aquí ya podemos imaginar posibles soluciones.**
+4. **Evaluación.**
+    - **Criticar y replantear nuestras ideas.**
+5. **Implementación.**
+    - **Construimos la idea e iniciamos la implementación.**
 
-Éste proceso se aplica a problemas de la vida cotidiana. 
+## Ejemplo:
 
-## 1.2. Conceptos básicos de diseño.
+![image](https://user-images.githubusercontent.com/60717025/180318326-b644dc22-df5f-4224-ad79-3571d76a6705.png)
 
-### 1.2.1. Balance:
+![image](https://user-images.githubusercontent.com/60717025/180318336-a0828d8f-6ebd-423c-93c6-9d8c36b70024.png)
 
-Se refiere a la estructura y estabilidad de una composición, en done la posición de cada elementos está dada por su peso visual.
+# Título del video: Conceptos básicos de diseño
 
-El balance puede ser simétrico o asimétrico.
+## Balance
 
-![image](https://user-images.githubusercontent.com/60717025/180315337-f7146ffb-f83a-4b6d-89e2-23add48b9485.png)
+Estructura y estabilidad de una composición en donde la posición de cada elemento está dada por su peso visual. Podemos tener un balance simétrico o asimétrico.
 
-### 1.2.2. Contraste
-
-El contraste se puede utilizar para utilizar para señalar un concepto marcado por la diferencia entre dos elementos. (ejemplo: claro y oscuro, grande y pequeño, antiguo y nuevo)
-
-![image](https://user-images.githubusercontent.com/60717025/180315465-6e023a72-3a3d-4d52-bd9d-35855d8f28e1.png)
-
-### 1.2.3. Alineación
-
-Nos permite crear una ruta visual entre diferentes elementos que le queremos señalar al usuario.
-![image](https://user-images.githubusercontent.com/60717025/180315514-8d72a379-8f2b-4174-8a51-a7a02e843dbb.png)
-
-### 1.2.4. Proximidad
-
-Nos permite agrupar diferentes elementos. Se pueden agrupar elementos dependiendo de varias categorías. 
-
-![image](https://user-images.githubusercontent.com/60717025/180315563-643fbba5-8617-416f-a62c-60a28fe67b04.png)
-
-### 1.2.5. Repetición
-
-Es muy utilizada para generar concepto de marca (estilos repetitivos en sus interfaces)
-
-![image](https://user-images.githubusercontent.com/60717025/180315604-44b31c58-0311-4b57-a59c-4718f5028612.png)
-
-### 1.2.6. Espacio
-
-Se puede aprovechar el espacio de una interfaz de muchas maneras.
-
-## 1.3. Diseño responsivo.
-
-Se trata de crear diferentes diseños para diferentes tamaños de pantalla. Es importante empezar por dispositivos móviles. Ésto garantiza que empecemos por los requerimientos mínimos, que separa las capas de contenido y disponibilidad. 
-
-Es importante utilizar sistema de grillas y columnas.
-
-- Para hacer responsive design se puede utilizar la mejora progresiva o Progresive enhancement.  Se parte de una base sólida y se van añadiendo capas de complejidad de manera progresiva.
-- También existe la degradación agraciada en la que se parte de una versión completa a la que se le van removiendo capas de complejidad para garantizar su funcionamientos en todos los tamaños de pantalla y sistemas operativos.
-
-Por ejemplo en la mejora progresiva se puede manejar el siguiente flujos:
-
-Contenido (data) ⇒ wireframes (html) ⇒ Diseño visual (CSS) ⇒ Animaciones (css o js)
-
-## 1.4. Accesibilidad y diseño.
-
-> *El poder de la web está en su universalidad. El acceso de todas las personas independientemente de la discapacidad es un aspecto esencial. Tim Berners-Lee, W3C Director*
+> Asimétrico
+> 
+> 
+> ![image](https://user-images.githubusercontent.com/60717025/180318370-66e60c97-4e59-431e-896c-ad2a6647f03a.png)
 > 
 
-Es una obligación que nuestras páginas sean visibles. 
-
-Para lograr que la accesibilidad sea implementada es prudente realizar los siguiente:
-
-- Utilizar HTML semántico.
-- Utilizar tamaños de fuentes accesibles.
-- Utilizar colores que tengan un contraste adecuado.
-- Garantizar que el código de color no sea la única forma de relacionar contenido.
-- Diseñar teniendo en cuenta los estados "focus" y "active" de los componentes.
-- Agregar etiquetas y textos descriptivos a los campos del formulario.
-- Garantizar que las animaciones no bloquean el acceso al contenido.
-- Escribir contenido descriptivo que pueda reemplazar videos e imágenes.
-
-## 1.4. El brief.
-
-El brief es un documento en donde se consignan todos los objetivos y datos relevantes a nuestra aplicación (hoja de ruta). En este documento se tienen principalmente:
-
-- Descripción del cliente o empresa.
-- Objetivos o retos.
-- Target o audiencia.
-- Competencia.
-- Distribución.
-
-# 2. Diseño y experiencia de usuario (UX)
-
-## 2.1. Definición de diseño UX.
-
-> *Si queremos que a nuestros usuarios les guste nuestro software, debemos diseñarlo para  que se comporte como una buena persona: respetuoso, generoso y colaborador.  Alan Cooper.*
+> La línea la marca la botella, y el balance está en la cantidad de elementos en ambos lados.
 > 
 
-El diseño UX se basa en el usuario y en la usabilidad. El diseño UX tiene diferentes etapas.
+Contraste
 
-1. Investigación: Recopilar datos de como se comportan los usuarios y como manejan otras aplicaciones.
-2. Análisis: Lo se que hacemos es clasificar esta información y agruparla y definir unos objetivos a nivel de usuario
-3. Diseño: Crear prototipos y flujos de usuario. 
-4. Pruebas de usuario: Éstas pruebas se hacen con papel y otros recursos. 
+Lo podemos utilizar para señalar un concepto marcado por la diferencia entre dos elementos distintos.
 
-## 2.2. Diagramas de flujos.
+![image](https://user-images.githubusercontent.com/60717025/180318435-ecfd870b-b692-4434-bbcf-aebca91458c9.png)
 
-Lo que se hace es traducir los requerimientos del brief a elementos tangibles. Por ejemplo:
+Alineación
 
-Objetivo
+Nos permite crear una ruta visual entre diferentes elementos que queremos señalar al usuario.
 
-- Dar a conocer sus productos.
-- Aumentar la presencia en línea.
-- Hacer pedidos online.
-- Dar a conocer su marca.
+![image](https://user-images.githubusercontent.com/60717025/180318454-5dee09da-ddf8-4a0f-84fd-eafc2648c9bc.png)
 
-Requerimientos
+Proximidad
 
-- Menú y promociones.
+Agrupar diferentes elemento. Puede ser física, colores etc
 
-- Redes Sociales.
-- Pedidos.
-- Contacto y sucursales.
+![image](https://user-images.githubusercontent.com/60717025/180318508-47ec713b-447f-4d0b-a5cd-391686821b4e.png)
 
-Se puede hace un mapa del sitio con todas la rutas posibles de la aplicación. Aquí se denotan las secciones principales, las secciones secundarias y las páginas externas. 
+Repetición
 
-![image](https://user-images.githubusercontent.com/60717025/180315694-3b6fc35c-91b9-4798-83a6-0423428bfbf5.png)
+Se repiten colores, formas o fuentes para generar pertenecía o continuidad
 
-Los "user flows" son todos los pasos necesarios que tiene que realizar un usuario para completar la tarea. Lo anterior nos sirve para ver cuantas pantallas o componentes debemos tener en la aplicación. 
+![image](https://user-images.githubusercontent.com/60717025/180318541-46131566-8edc-43e0-8aef-f4395cffc60f.png)
 
-![image](https://user-images.githubusercontent.com/60717025/180315767-a73d82ca-4725-4056-aaed-82c63d0e05cd.png)
+Espacio
 
-## 2.3. Wireframes y componentes.
+Se puede aprovechas el espacio vacío para reforzar la idea.
 
-Un wireframe es un plano de nuestra aplicación. Se empiezan a hacer bocetos y bosquejos de todas las pantallas y componentes que tendría nuestra aplicación. Es bueno hacer los bocetos a mano con el fin de darle rienda suelta a la imaginación.
+![image](https://user-images.githubusercontent.com/60717025/180318560-348367b8-4046-43c8-9dd1-e6e453947dd7.png)
 
-![image](https://user-images.githubusercontent.com/60717025/180315814-5d91ae84-4fa3-48d8-9528-d6fa6946e0fc.png)
+Aprovecharon el espacio de la derecha para mejorar la idea de su concepto.
 
-Los wireframes pueden ser de baja fidelidad o de alta fidelidad. 
+# Diseño responsivo
 
-# 3. Diseño de interfaz de usuario (UI)
+1. Empieza por dispositivos móviles.
+2. Separa las capas de contenido y funcionalidad.
+3. Usa sistemas de grillas y columnas.
 
-**Diseño UX**
+Metodología de Mejora progresiva:
 
-Se enfoca en la investigación, prototipado y arquitectura de la información.
+Consiste en partir de una base sólida a la que se le van añadiendo mejoras dependiendo de factores como tamaño de pantalla o sistemas operativos.
 
-- Interacción
-- Prototipado
-- Arquitectura de la información
-- Investigación y pruebas de usuario
+![image](https://user-images.githubusercontent.com/60717025/180318599-9faa0ca6-f401-4429-b90f-94bfe397f956.png)
 
-**Diseño UI**
+Degradación "agraciada":
 
-Se enfoca en crear la capa de estilos visuales que va por encima de la estructura de contenido.
+Consiste en partir de una versión completa a la que se le can removiendo capas de complejidad para garantizar si funcionamiento en todos los tamaños de pantalla y sistemas operativos.
 
-- Diseño visual
-- Colores
-- Layouts
-- Tipografía
+![image](https://user-images.githubusercontent.com/60717025/180318677-71a91601-2c0a-4335-b29d-9c1807d3f074.png)
 
-## 3.1. Moodboard y linea gráfica.
+![image](https://user-images.githubusercontent.com/60717025/180318706-97daa210-ab63-46a2-892b-1257b880b30b.png)
 
-Un moodboard es un documento o un tablero en donde se colectará información visual de estilis visuales, colores etc que podría llevar nuestra aplicación. No existe ninguna regla para crear este moodboard.
+# Accesibilidad y diseño
 
-![image](https://user-images.githubusercontent.com/60717025/180315860-0df32647-4991-47d0-84ac-d3e607dabc32.png)
+## Tip básicos de accesibilidad:
 
-## 3.2. Teoría del color.
+- Utiliza los encabezados de manera ordenada para organizar la estructura del contenido (HTML5 semántico).
+- Utiliza tamaños de fuente accesibles.
+- Utiliza colores que tengan un contraste adecuado.
+- Garantiza que el código de color no sea la única forma de relacionar contenido.
+- Diseña teniendo en cuenta los estados "focus" y "active" de los componentes.
+- Añade etiquetas y textos descriptivos a los campos de formulario.
+- Escribe contenido descriptivo que pueda remplazar videos e imágenes.
+- Garantiza que las animaciones no bloqueen el acceso al contenido.
+- Ubicación o nombre y teléfono del contacto
 
-Se debe preguntar si los colores elegidos son funcionales o son adecuados para los que se quiere transmitir. 
+**Brief y requerimientos técnicos**
 
-La psicología del color es una área de estudio que se dedica a investigar la forma en la que el cerebro percibe los colores y los asocia a conceptos y sentimientos. 
+# Título del video: Brief
 
-- Se debe usar un código de colores consistentes.
-- Exceso de color hace que los usuarios no se puedan enfocar en una acción a la vez.
-- Que la paleta de color sea accesible.
-- Definir una paleta de color.
+El brief es la hoja de ruta para empezar a diseñar. Es el resultado de las conversaciones con el cliente e incluye datos sobre marca, objeticos y requerimientos de un proyecto.
 
-## 3.3. Paletas de color.
+## Nuestro proyecto:
 
-Existe los colores primarios, secundarios y terciarios. 
+![image](https://user-images.githubusercontent.com/60717025/180318748-65c41e00-a237-45ff-a7a8-6f3011a690c0.png)
 
-- Combinación monocromática: Se usa un solo color y se le cambian los niveles de opacidad.
-- Combinación análoga: Combinar un color primario uno secundario y uno terciario consecutivos.
-- Combinación terciaria: Se trata de combina un color primario y uno secundario opuestos en el círculo cromático.
-- Combinación triádica: Combina tres colores del circulo cromática separados equidistantes uno del otro.
-- Combinación tetraédrica: Consiste en combinar cuatro colores dos primarios y dos secundarios creando un rectángulo.
+![image](https://user-images.githubusercontent.com/60717025/180318869-5b4a64ae-91a5-43a5-9040-ef16f61c1b61.png)
 
-[color-wheel](color.adobe.com/es/create/color-wheel)
 
-Adobe Color
+# [https://github.com/mssroboto/diseno-para-programadores/blob/master/1-brief/Brief..pdf](https://github.com/mssroboto/diseno-para-programadores/blob/master/1-brief/Brief..pdf)
 
-## 3.4. Tipografía.
 
-Se hacen las siguientes recomendaciones para el uso eficiente de tipografías.
+# Definición de diseño UX (Diseño de experiencia de usuario)
 
-- Mantener el número de fuentes al mínimo.
-- Tratar de usar fuentes estándar.
-- Limitar la cantidad de texto: Las páginas web no son libros.
-- Elegir tipografías que sean legibles para diferentes tamaños.
-- Mantener altos de línea espaciados.
-- Asegurarse de tener suficiente contraste.
-- Evitar usar animaciones intermitentes.
+> Se enfoca en la investigación, prototipado y arquitectura de la información.
+> 
 
-## 3.5. Layout y sistema de grillas.
+*"Si queremos que a nuestros usuarios les guste nuestro software, deberíamos diseñarlo para que se comporte como una buena persona: respetuoso, generoso y colaborador."*
 
-La configuración de las grillas depende del tamaño del dispositivo. Se deben configuarar los breakpoints:
+> -Alan Cooper, diseñador de software y programador.
+> 
 
-- xs: 360px
-- s: 440px
-- m: 768px
-- l: 1280px
-- xl: 1440px
+## Etapas:
 
-## 3.6. Sistemas de componentes UI.
+1. Investigación
+    - Se recopila datos de sobre el comportamiento de los usuarios.
+    - Como manejan otras aplicaciones.
+2. Análisis
+    - Clasificar la información y agrupar.
+    - Definir los objetivos a nivel de usuario.
+3. Diseño
+    - Prototipos.
+    - Flujos de usuario.
+4. Pruebas de usuario
+    - En papel o maquetados.
 
-Es bueno separa las funcionalidades por componentes (se podría crear una biblioteca visual). Unidades individuales de funcionalidad. 
+> 
+> 
 
-## 3.7. Themas y costumización.
+# Diagramas de flujo
 
-Se puede cambiar todos los colores dependiendo de una decisión  o acción. 
+> Aquí traducimos los requerimientos de nuestro brief a elementos tangibles.
+> 
 
-## 3.8. Imágenes para la web.
+## 
 
-### 3.8.1. Tipos de imágenes.
+## Ejemplo
 
-- JPG: para fotografía o degradados.
-- PNG: Imágenes decorativas que requieren un fondo transparente.
-- SVG: Imágenes vectoriales y convertibles a código.
-- Gif: Imágenes animadas pero muy pesadas.
+![image](https://user-images.githubusercontent.com/60717025/180319089-ecd5916c-d75c-4538-99c7-5947d9f7830c.png)
 
-### 3.8.2.Recomendaciones para el uso de imágenes.
+### Diagramas de flujo
 
-- Se deben ubicar imágenes que aporten al contenido, no debe ser innecesarias.
-- Las imágenes deben ser consecuentes con la paleta de color.
-- Las imágenes tienen licencia.
-- Las imágenes deben ser comprimidas al tamaño del contenedor final.
-- Considerar estrategias como *"lazy loading"*.
-- Asegurar el atributo alt a imágenes que tienen un contenido descriptivo.
+### Diagramas de flujo del usuario
 
-## 3.9. Gráficos en movimiento para web.
+![image](https://user-images.githubusercontent.com/60717025/180319145-30891c7f-2728-4b79-bd4f-adf1a843a9e3.png)
 
-### 3.9.1. Tipos de animaciones.
+# Wireframes y componentes
 
-- **CSS Animado:** Animaciones de elementos HTML, es recomendable para animaciones sencillas.
-- **SVG animado:** Animado de elementos vectoriales, se puede modificar con CSS.
-- **JS(Canvas, webGL):** Indicado para animaciones complejas como animacions de datos o 3D.
-- **Videos:** Indicado para filmaciones y animaciones de alta complejidad y corta duración.
+El wireframe es el plano de nuestra aplicación. Aquí empezamos a hacer bocetos de todas los componentes que compondrá nuestra app. Y de las pantallas que aparecen en nuestro diagrama de flujo.
 
-### 3.9.2. Recomendaciones para el uso de animaciones.
+## Ejemplo
 
-- Una página muy animada es una página que saca rápido al usuario.
-- Procurar que no se reproduzca automáticamente y que no tengan sonido.
-- Que las animaciones no tengan flashes.
-- Si la animación aporta al contenido, es necesario añadir transcripciones.
-- Evitar que la animaciones bloqueen la lectura básica del contenido.
-- Recordar que las animaciones y vídeos afectan el rendimiento de la página.
+Wireframes de baja fidelidad:
+
+![image](https://user-images.githubusercontent.com/60717025/180319157-714883e5-6358-432b-a74a-6af341b3bbc0.png)
+
+Es mejor hacerlos a mano para poder modificarlos sin preocuparnos por las minucias técnicas y practicar el flujo del usuario en las mismas hojas.
+
+Wireframes de alta fidelidad:
+
+![image](https://user-images.githubusercontent.com/60717025/180319192-ad6c426b-3b0f-408c-a628-1c2eace44972.png)
+
+Se pueden hacer en sketch.
+
+> Ubicación o nombre y teléfono del contacto
+> 
+
+![image](https://user-images.githubusercontent.com/60717025/180319216-dc996610-7809-474a-86b8-6bbb61bdd400.png)
+
+![image](https://user-images.githubusercontent.com/60717025/180319239-bd66081f-373a-4316-9289-7a79ca030d67.png)
+
+**Aprender sobre Diseño de interfaz de usuario (UI)**
+
+
+# Definición de diseño UI
+
+Se enfoca en la capa de estilo visuales que va por encima de la estructura de contenido.
+
+## Diferencia con UX:
+
+![image](https://user-images.githubusercontent.com/60717025/180319374-2e8a0b23-86a5-45b5-a140-4c60130bad02.png)
+
+# Moodboard y línea gráfica
+
+Moodboard: Es una colección de referencias visuales que se usa como fuente de inspiración para un diseño.
+
+![image](https://user-images.githubusercontent.com/60717025/180319412-79992676-3646-48ff-9956-5a70eca68b7d.png)
+
+- Ubicación o nombre y teléfono del contacto
+
+**Teoría del color**
+
+
+## Psicología del color.
+
+Es un área de estudio que se dedica a investigar la forma en la que el cerebro percibe los colores y los asocia a conceptos y sentimientos.
+
+![image](https://user-images.githubusercontent.com/60717025/180319443-b9ee203f-575e-4c1e-b4ee-276a3fcfaa10.png)
+
+## Color para WEB
+
+- Utiliza RGB y hexadecimales.
+- Crea un código de color consistente.
+- Menos en más. El exceso de color hace que los usuarios no se puedan enfocar en una acción a la vez.
+- Asegúrate de que tu elección de color sea accesible.
+- Define una paleta de color.
+
+# Paletas de color
+
+Tipos de colores
+
+- Primarios: Rojo, amarillo y azul.
+- Secundarios: Son los resultantes de la combinación de dos colores primarios.
+- Terciarios: Se encuentran entre un color primario y un secundario.
+
+![image](https://user-images.githubusercontent.com/60717025/180319484-74629446-97b2-46b8-a23c-731f3d749dbe.png)
+
+
+## Combinación monocromática
+
+Un color + diferente opacidad
+
+![image](https://user-images.githubusercontent.com/60717025/180319507-c5be9530-7258-4bd6-8cbc-4b2866f13b0b.png)
+
+# Combinación análoga
+
+Se forma de los tres tipos de colores, deben ser consecutivos en el circulo cromático.
+
+![image](https://user-images.githubusercontent.com/60717025/180319529-0f376c7b-44f0-4342-8470-69b7739ca1e6.png)
+
+# Combinación complementaria
+
+Un color primario + secundario opuestos uno al otro en el circulo cromático.
+
+![image](https://user-images.githubusercontent.com/60717025/180319560-4d276460-ebb3-40f6-842c-ca8bd20dcc13.png)
+
+# Combinación triádica
+
+Se coloca un triángulo a la mitad del círculo y su composición la forman las aristas.
+
+![image](https://user-images.githubusercontent.com/60717025/180319592-126610de-013d-4f5d-a6d5-8d6a76a79857.png)
+
+# Combinación tétrada
+
+Se coloca un rectángulo la mitad del círculo y su composición la forman las aristas.
+
+![image](https://user-images.githubusercontent.com/60717025/180319642-4e8235db-7132-4cb5-9aa2-bd026c4a8e80.png)
+
+# Herramientas
+
+https://color.adobe.com/es/explore
+
+https://github.com/mssroboto/diseno-para-programadores/blob/master/4-app/src/scss/variables/colors-theme-primary.scss
+
+- Ubicación o nombre y teléfono del contacto
+
+**Tipografía**
+
+# Tips para el uso eficiente de tipografías.
+
+- Mantén el número de fuentes al mínimo. Más de 3 pierde el balance.
+- Trata de usar fuentes estándar. (Google Fonts)
+- Limita la cantidad de texto.
+- Elige tipografías que sean legible en diferentes tamaños.
+- Mantén altos de línea espaciados.
+- Asegúrate de tener suficiente contraste.
+- Evita usar animaciones intermitentes.
+
+# Implementación
+
+Después de importar la fuente guardamos sus declaraciones en constantes, al igual que los tamaños que utilizaremos:
+
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+$font-primary: "Arvo", serif;
+
+$font-secondary: "Patrick Hand", cursive;
+
+$font-size-small: 20px;
+
+$font-size-medium: 30px;
+
+$font-size-large: 35px;
+
+$font-size-extra-large: 50px;
+
+Así lograremos uniformidad en todo el proyecto.
+
+# Herramientas
+
+[https://fonts.google.com/](https://fonts.google.com/)
+
+Layout y sistemas de grillas
+
+# Grilla
+
+Es un sistema de columnas donde ajustaremos nuestros elementos y componentes.
+
+![image](https://user-images.githubusercontent.com/60717025/180319969-89b2eabe-bba6-4a70-ba02-c5a23dcdcde7.png)
+
+- Guardamos los breakpoint en variables:
+
+> $xs: 360px;
+> 
+> $s: 440px;
+> 
+> $m: 768px;
+> 
+> $l: 1280px;
+> 
+> $xl: 1440px;
+> 
+- Si utilizamos sass creamos un mixin para manejar los breakpoints.
+- Definimos el número de columnas y el espacio entre ellas dependiendo del layout.
+- Definimos una clase llamada grid que añadiremos los elementos contenedores donde vamos a incluir nuestros componentes.
+- Definimos el display grid y los valores que ya definimos para nuestras columnas.
+
+# Sistemas de componentes UI
+
+Es un conjunto de componentes que vamos a utilizar para la construcción de nuestro proyecto, funcionan como una librería.
+
+Ejemplo:
+
+![image](https://user-images.githubusercontent.com/60717025/180320040-120198e3-77ab-4351-b634-c39005904456.png)
+
+- Definimos la estructura base de nuestro y su interactividad.
+- Lo importamos desde cualquier parte del proyecto.
+
+Es mejor manejar nuestra propia librería de componente en vez de depender de urls externas para evitar problemas en el funcionamiento y tiempo de carga largos.
+
+# Themes y costomizaciones
+
+Un Themes es una capa de color y estilos que se añade por encima de nuestra aplicación y nos permite tener distintas variaciones sin hacer cambios drásticos en nuestro código. El ejemplo más claro son los dark theme and light theme, en este caso, lo ideal es crear tantos archivos como cantidad de temas en nuestras variables de color.
+
+![image](https://user-images.githubusercontent.com/60717025/180320104-34d60062-de0f-4119-a0b9-3763fedcf0bd.png)
+
+El implementar el sistema de componentes nos ayuda a recortar el tiempo al realizar modificaciones a nuestro proyecto.
+
+# Imágenes para web
+
+## Seleccionar las imágenes adecuadas.
+
+1. Formatos:
+    1. JPG para fotografías o imágenes con degradados.
+    2. PNG para imágenes decorativas que requieran un fondo transparente.
+    3. SVG para iconos y animaciones de baja complejidad. Es vectorial y permite editar sus propiedades con CSS.
+    4. GIF No recomendado para animaciones de larga duración debido a su peso.
+2. Elegir imágenes para mi diseño:
+    1. Que aporten al contenido, no solo por estética.
+    2. Imágenes en las que tu público objetivo se vea reflejado.
+    3. Consistentes con tu paleta de colores.
+    4. Cuidado con las licencias.
+3. Rendimiento y accesibilidad:
+    1. Evita exportar imágenes con texto incrustado.
+    2. Exporta las imágenes al tamaño del contenedor final.
+    3. Considera el uso de estrategias como "lazy loading". (Va cargando las imágenes de forma progresiva conforme al scroll que demos).G
+    4. Asegúrate de añadir "alt text" a las imágenes que tengan un fin comunicativo.
+
+> 
+> 
+
+# Gráficos en moviento para web
+
+### Formato de gráficos en movimiento
+
+1. **CSS animado**:
+    - Indicado para animaciones sencillas y transiciones
+2. **SVG animado**:
+    - Indicado para animaciones de elementos vectoriales .
+3. **JS(Canvas, WebGL)**:
+    - Indicado para animaciones complejas como animaciones de datos o 3D.
+4. **Videos**:
+    - Indicado para filmaciones y animaciones de alto complejidad y corta duración.
+
+### Elegir gráficos en movimiento
+
+1. Elige animaciones que aporten al contenido.
+2. Procura que no se reproduzcan automáticamente y si lo hacen, que no tengan sonido.
+3. Evita que tus animaciones tengan flashes.
+4. Si tus animaciones aportan al contenido, añade subtítulos o transcripciones
+5. Evita que las animaciones bloqueen la lectura básica del contenido
+6. Recuerda que las animaciones y videos afectan el rendimiento de tu pagina.
