@@ -1,10 +1,17 @@
 # Diseño para Developers
 
+![image](https://user-images.githubusercontent.com/60717025/180329396-ed28cf09-141f-44ba-b631-f15b7e31764e.png)
+
+
 **Bases teóricas para el diseño**
 
 # Título del video: El proceso creativo
 
 ![image](https://user-images.githubusercontent.com/60717025/180318241-772058c0-3867-4446-8b97-29c2f0c9b03d.png)
+![image](https://user-images.githubusercontent.com/60717025/180322071-44d2ab30-a9e5-4805-b6eb-98783cbab534.png)
+![image](https://user-images.githubusercontent.com/60717025/180322096-9590c54b-a004-4886-b8f9-e8208ecbd930.png)
+
+
 
 1. **Preparación.**
     - **Investigamos y recopilamos la información relativa a un problema.**
@@ -76,6 +83,9 @@ Aprovecharon el espacio de la derecha para mejorar la idea de su concepto.
 2. Separa las capas de contenido y funcionalidad.
 3. Usa sistemas de grillas y columnas.
 
+![image](https://user-images.githubusercontent.com/60717025/180322232-8396833f-64da-43cd-ba3d-0d9e5ab784f3.png)
+
+
 Metodología de Mejora progresiva:
 
 Consiste en partir de una base sólida a la que se le van añadiendo mejoras dependiendo de factores como tamaño de pantalla o sistemas operativos.
@@ -103,6 +113,8 @@ Consiste en partir de una versión completa a la que se le can removiendo capas 
 - Escribe contenido descriptivo que pueda remplazar videos e imágenes.
 - Garantiza que las animaciones no bloqueen el acceso al contenido.
 - Ubicación o nombre y teléfono del contacto
+
+![image](https://user-images.githubusercontent.com/60717025/180323447-abcee02b-d70f-45fa-8cb4-b0842505ab4f.png)
 
 **Brief y requerimientos técnicos**
 
