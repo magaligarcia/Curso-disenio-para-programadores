@@ -122,6 +122,42 @@ Consiste en partir de una versión completa a la que se le can removiendo capas 
 
 El brief es la hoja de ruta para empezar a diseñar. Es el resultado de las conversaciones con el cliente e incluye datos sobre marca, objeticos y requerimientos de un proyecto.
 
+Los 10 elementos de debe tener un buen briefing:
+1 – Introducción
+Aquí definimos los aspectos generales del trabajo. Se trata de una descripción amplia, sin entrar en detalles. Es como resumir el trabajo total en un par de frases.
+
+2 – Objetivo
+Aquí definimos qué es lo que el cliente quiere conseguir con la campaña/acción/web que está planteando. Necesitamos CLARIDAD en este planteamiento. Cuanto más directos seáis en este punto, mejores resultados se conseguirán en nuestro trabajo. De lo que se trata, en definitiva, es de extraer qué beneficio (económico, de imagen de marca, de posicionamiento de producto…) quiere el cliente de la campaña/acción/web de la que se trate.
+
+3 – Target
+Definimos a qué publico va principalmente dirigido el trabajo que se nos está pidiendo. Este es uno de los aspectos más importantes.
+
+4 – Piezas de la campaña
+Definimos en que consiste cada elemento del trabajo.
+
+5 – Descripción del trabajo
+Aquí se especifica el trabajo a realizar. Se explica todo lo extensamente posible en que consiste la campaña. Se define lo que hay que contar (los datos de la promoción, que mensajes se quieren destacar, los datos de la tabla de precios que se debe adjuntar, qué telefono hay que poner, etc…) Es decir, se especifican los datos con los debemos jugar en la estrategia creativa, así como las necesidades que el cliente ya tiene claras y que por tanto en la agencia debemos observar como condicionantes de obligado cumplimiento (presencia de marca, teléfono de contacto, hueco para reimpresión de logo distribuidor, uso de un pantone determinado….etc)
+
+6 – Beneficio clave
+Aquí extraemos de todos los mensajes los que para vosotros son determinantes. Habría que intentar resumir en una frase lo que se quiere transmitir al target con el trabajo, lo que se pretende que debe quedar fijado en la cabeza de quien vaya a recibir el mensaje. Debe poder expresarse en una frase simple.
+
+7 – Tono de la comunicación
+Definimos ahora los límites creativos de la comunicación. Se deberá reflexionar sobre si queremos una comunicación muy creativa, una comunicación más corporativa, con mucha coña o una comunicación de producto. Utilizando el humor como eje principal o buscando contundencia en el mensaje. Si queremos un mensaje «comercialero» de venta o si queremos un mensaje muy corporativo, con alguna metáfora inteligente….etc.
+En definitiva que tipo de trabajo debe salir al final de la creatividad. Esto está claramente vinculado al objetivo de la comunicación. Por ejemplo, una comunicación promocional que tiene como objetivo incrementar las ventas de una determinada opción de Internet, no debería perderse en creatividades complejas y debería ser una pieza muy enunciativa y clara, destacando a nivel de diseño las principales ventajas del producto.
+
+8 – Datos para el presupuesto
+Datos IMPRESCINDIBLES para plantear un presupuesto son definir claramente la mayor parte de los aspectos como por ejemplo:
+– Tiradas (si tenéis la tirada clara, perfecto. Si no damos un escalado.)
+– Lugares de entrega del trabajo.
+– Especificaciones técnicas obligadas
+– Idiomas en los que debe hacerse el trabajo (gallego sólo o gallego y castellano).
+– Ámbito de las campañas y duración de las mismas (Facebook, Twitter, Adwords, etc …)
+
+9 – Fotos
+El uso elementos gráficos suele ser determinante estéticamente y a nivel de presupuesto. Por tanto es necesario que se defina su uso y procedencia.
+
+10 – Plazo
+Recomendamos que no os «engañeis» en este aspecto. Diciendo que todos los trabajos son urgentes, se consigue verlos todos igual y la calidad creativa se ve seriamente amenazada. Quiero decir: si es urgente corramos, pero si podemos contar con unos días más, TODOS saldrán ganando.
 ## Nuestro proyecto:
 
 ![image](https://user-images.githubusercontent.com/60717025/180318748-65c41e00-a237-45ff-a7a8-6f3011a690c0.png)
