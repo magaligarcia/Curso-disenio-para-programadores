@@ -1,4 +1,5 @@
-# Diseño para Developers
+# Diseño para Programadores
+![image](https://user-images.githubusercontent.com/60717025/180436917-c75a0135-3356-4939-8f83-d4d2021ac80e.png)
 
 ![image](https://user-images.githubusercontent.com/60717025/180329396-ed28cf09-141f-44ba-b631-f15b7e31764e.png)
 
